@@ -1,21 +1,13 @@
-# formwork &emsp; [![Build Status]][actions] [![Latest Version]][crates.io]
+# http-sender &emsp; [![Build Status]][actions] [![Latest Version]][crates.io]
 
-[Build Status]: https://img.shields.io/github/actions/workflow/status/Xuanwo/formwork/ci.yml
-[actions]: https://github.com/Xuanwo/formwork/actions?query=branch%3Amain
-[Latest Version]: https://img.shields.io/crates/v/formwork.svg
-[crates.io]: https://crates.io/crates/formwork
+[Build Status]: https://img.shields.io/github/actions/workflow/status/Xuanwo/http-sender/ci.yml
+[actions]: https://github.com/Xuanwo/http-sender/actions?query=branch%3Amain
+[Latest Version]: https://img.shields.io/crates/v/http-sender.svg
+[crates.io]: https://crates.io/crates/http-sender
 
-`formwork` is my favourite rust template.
-
-> Please replace with valid value.
+`http-sender` aims to offering a simple send API for various HTTP client implementations based on [`http`](https://crates.io/crates/http) and [`http-body`](https://crates.io/crates/http-body).
 
 ## Quick Start
-
-Replace all placeholder with valid values, for example:
-
-- `Xuanwo` => github login
-- `github@xuanwo.io` => email
-- `formwork` => crate name
 
 ```rust
 // Replace with quick Start here
@@ -27,7 +19,7 @@ Check out the [CONTRIBUTING.md](./CONTRIBUTING.md) guide for more details on get
 
 ## Getting help
 
-Submit [issues](https://github.com/Xuanwo/formwork/issues/new/choose) for bug report or asking questions in [discussion](https://github.com/Xuanwo/formwork/discussions/new?category=q-a).
+Submit [issues](https://github.com/Xuanwo/http-sender/issues/new/choose) for bug report or asking questions in [discussion](https://github.com/Xuanwo/http-sender/discussions/new?category=q-a).
 
 #### License
 
