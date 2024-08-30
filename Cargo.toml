@@ -1,12 +1,11 @@
 [package]
-authors = ["Xuanwo <github@xuanwo.io>>"]
-categories = ["command-line-utilities"]
-description = "Replace with description"
-documentation = "https://docs.rs/formwork"
-repository = "https://github.com/Xuanwo/formwork"
+categories = ["network-programming"]
+description = "Offering a simple send API for various HTTP client implementations."
+documentation = "https://docs.rs/http-sender"
+repository = "https://github.com/Xuanwo/http-sender"
 edition = "2021"
 license = "Apache-2.0"
-name = "formwork"
+name = "http-sender"
 version = "0.0.1"
 
 [dependencies]
