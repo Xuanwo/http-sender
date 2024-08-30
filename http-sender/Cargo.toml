@@ -1,0 +1,13 @@
+[package]
+categories = ["network-programming"]
+description = "Offering a simple send API for various HTTP client implementations."
+documentation = "https://docs.rs/http-sender"
+repository = "https://github.com/Xuanwo/http-sender"
+edition = "2021"
+license = "Apache-2.0"
+name = "http-sender"
+version = "0.0.1"
+
+[dependencies]
+http.workspace = true
+http-body.workspace = true

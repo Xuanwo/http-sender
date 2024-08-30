@@ -1,0 +1,10 @@
+[package]
+name = "http-sender-reqwest"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12", default-features = false, features = ["stream"] }
+http-sender.workspace = true
+http.workspace = true
+http-body.workspace = true

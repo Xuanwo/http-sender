@@ -1,11 +1,8 @@
-[package]
-categories = ["network-programming"]
-description = "Offering a simple send API for various HTTP client implementations."
-documentation = "https://docs.rs/http-sender"
-repository = "https://github.com/Xuanwo/http-sender"
-edition = "2021"
-license = "Apache-2.0"
-name = "http-sender"
-version = "0.0.1"
+[workspace]
+resolver = "2"
+members = ["http-sender", "http-sender-reqwest"]
 
-[dependencies]
+[workspace.dependencies]
+http = "1"
+http-body = "1"
+http-sender = { path = "http-sender" }
